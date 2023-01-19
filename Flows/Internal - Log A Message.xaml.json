@@ -1,0 +1,108 @@
+{
+  "DisplayName": "Internal - Log Message",
+  "Tooltip": "Performs a Log Message and ensures RE Platform Logging compliance. INTERNAL to RE Platform, this should only be utilized in a process INTENTIONALLY.",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "LogLevel",
+      "DisplayName": "LogLevel",
+      "Category": "Log Info",
+      "Tooltip": "Target level to log message at.",
+      "Placeholder": null,
+      "Widget": "Dropdown",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": []
+    },
+    {
+      "Name": "Env",
+      "DisplayName": "Env",
+      "Category": "Log Info",
+      "Tooltip": "The target environment for the log message.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": []
+    },
+    {
+      "Name": "ActivityName",
+      "DisplayName": "ActivityName",
+      "Category": "Log Info",
+      "Tooltip": "The Activity Name that logged the message.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": []
+    },
+    {
+      "Name": "Message",
+      "DisplayName": "Message",
+      "Category": "Log Info",
+      "Tooltip": "The message to be logged.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": []
+    },
+    {
+      "Name": "Exception",
+      "DisplayName": "Exception",
+      "Category": "Log Info",
+      "Tooltip": "The exception associated with the log",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": []
+    },
+    {
+      "Name": "Metadata",
+      "DisplayName": "Metadata",
+      "Category": "Log Info",
+      "Tooltip": "Any metadata to be logged within the message. Uses syntax to auto-inject properties of the metadata into the Message of the Log Message.",
+      "Placeholder": null,
+      "Widget": "Dictionary",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": []
+    },
+    {
+      "Name": "ProductKey",
+      "DisplayName": "ProductKey",
+      "Category": "Product Info",
+      "Tooltip": "Key of the Product Sourcing the Message",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": []
+    },
+    {
+      "Name": "ProductName",
+      "DisplayName": "ProductName",
+      "Category": "Product Info",
+      "Tooltip": "Name of the Product sourcing the message.",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": []
+    },
+    {
+      "Name": "LogObject",
+      "DisplayName": "LogObject",
+      "Category": "Options",
+      "Tooltip": "Whether or not the log message to console/orchestrator should include the log objects.",
+      "Placeholder": null,
+      "Widget": "Toggle",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "DataSourceItems": []
+    }
+  ]
+}

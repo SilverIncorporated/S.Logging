@@ -1,0 +1,74 @@
+{
+  "name": "S.Logging",
+  "description": "SCALE Framework Implementation of logging functionality",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "S.Logging.NET": "1.2.0",
+    "UiPath.System.Activities": "22.10.4",
+    "UiPath.Testing.Activities": "22.12.0-preview",
+    "UiPath.UIAutomation.Activities": "22.10.4",
+    "UiPath.WebAPI.Activities": "1.13.3"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.12.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": [
+        "Actions/Internal - Build Full Message.xaml",
+        "Actions/Internal - Build Log Exception.xaml",
+        "Actions/Internal - Build Log Message.xaml",
+        "Actions/Internal - Format in Exception.xaml",
+        "Actions/Internal - Build Log Metadata.xaml",
+        "Actions/Internal - Format Log Message.xaml",
+        "Actions/Internal - Log Message.xaml",
+        "Actions/TestCase_FormatLogMessage.xaml"
+      ]
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fa308e20-f488-4159-90a3-4eff37813510",
+        "testCaseType": "TestCase",
+        "fileName": "Flows\\TestCase_LogAMessage_Exception.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "793e73cb-dcbe-4321-bf5f-fd3d8df65754",
+        "testCaseType": "TestCase",
+        "fileName": "Flows\\TestCase_LogAMessage.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Portable"
+}
