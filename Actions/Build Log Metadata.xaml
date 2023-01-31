@@ -131,7 +131,7 @@
                   <Assign DisplayName="Assign - Add to metadata" sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_3">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:Object">
-                        <CSharpReference x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">Metadata[dataObject.Key]</CSharpReference>
+                        <CSharpReference x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">Metadata[dataObject.Key]</CSharpReference>
                       </OutArgument>
                     </Assign.To>
                     <Assign.Value>
