@@ -1,5 +1,5 @@
 {
-  "DisplayName": "Internal - Log Message",
+  "DisplayName": "Log A Message",
   "Tooltip": "Performs a Log Message and ensures RE Platform Logging compliance. INTERNAL to RE Platform, this should only be utilized in a process INTENTIONALLY.",
   "HelpLink": null,
   "Color": null,
@@ -78,7 +78,7 @@
       "Tooltip": "Key of the Product Sourcing the Message",
       "Placeholder": null,
       "Widget": "TextComposer",
-      "IsRequired": true,
+      "IsRequired": false,
       "IsPrincipal": true,
       "DataSourceItems": []
     },
@@ -89,7 +89,7 @@
       "Tooltip": "Name of the Product sourcing the message.",
       "Placeholder": null,
       "Widget": "TextComposer",
-      "IsRequired": true,
+      "IsRequired": false,
       "IsPrincipal": true,
       "DataSourceItems": []
     },

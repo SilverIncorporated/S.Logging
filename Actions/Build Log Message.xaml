@@ -122,7 +122,7 @@
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="sln:LogMessage">
-          <CSharpValue x:TypeArguments="sln:LogMessage" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">new S.Logging.NET.LogMessage( ProductKey, ProductName, ActivityName, Message, Environment , Metadata)</CSharpValue>
+          <CSharpValue x:TypeArguments="sln:LogMessage" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">new S.Logging.NET.LogMessage(ActivityName, Message, Environment , Metadata, ProductKey, ProductName)</CSharpValue>
         </InArgument>
       </Assign.Value>
     </Assign>
